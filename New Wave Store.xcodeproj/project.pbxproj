@@ -14,6 +14,7 @@
 		E27DB77E2927FE9600EBA957 /* New_Wave_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DB77D2927FE9600EBA957 /* New_Wave_StoreTests.swift */; };
 		E27DB7882927FE9600EBA957 /* New_Wave_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DB7872927FE9600EBA957 /* New_Wave_StoreUITests.swift */; };
 		E27DB78A2927FE9600EBA957 /* New_Wave_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DB7892927FE9600EBA957 /* New_Wave_StoreUITestsLaunchTests.swift */; };
+		E27DB797292803CA00EBA957 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DB796292803CA00EBA957 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E27DB7832927FE9600EBA957 /* New Wave StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Wave StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27DB7872927FE9600EBA957 /* New_Wave_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_StoreUITests.swift; sourceTree = "<group>"; };
 		E27DB7892927FE9600EBA957 /* New_Wave_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E27DB796292803CA00EBA957 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				E27DB76C2927FE8E00EBA957 /* New_Wave_StoreApp.swift */,
-				E27DB76E2927FE8E00EBA957 /* ContentView.swift */,
+				E27DB7992928072900EBA957 /* Model */,
+				E27DB7982928071600EBA957 /* Views */,
 				E27DB7702927FE9500EBA957 /* Assets.xcassets */,
 				E27DB7722927FE9500EBA957 /* Preview Content */,
 			);
@@ -125,6 +128,22 @@
 				E27DB7892927FE9600EBA957 /* New_Wave_StoreUITestsLaunchTests.swift */,
 			);
 			path = "New Wave StoreUITests";
+			sourceTree = "<group>";
+		};
+		E27DB7982928071600EBA957 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E27DB76E2927FE8E00EBA957 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E27DB7992928072900EBA957 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E27DB796292803CA00EBA957 /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				E27DB76F2927FE8E00EBA957 /* ContentView.swift in Sources */,
 				E27DB76D2927FE8E00EBA957 /* New_Wave_StoreApp.swift in Sources */,
+				E27DB797292803CA00EBA957 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
