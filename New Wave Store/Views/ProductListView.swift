@@ -14,11 +14,12 @@ struct ProductListView: View {
     var body: some View {
         ZStack {
             VStack {
-                HStack {
+                HStack(alignment: .top) {
                     Image(product.picture)
                     VStack {
                         Text(product.name)
                     }
+                    Spacer()
                 }
             }
         }

@@ -18,6 +18,7 @@
 		E27DB79B2928089D00EBA957 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DB79A2928089D00EBA957 /* ProductList.swift */; };
 		E27DB79D292C05C600EBA957 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DB79C292C05C600EBA957 /* Constants.swift */; };
 		E27DB79F292C070B00EBA957 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DB79E292C070B00EBA957 /* ProductListView.swift */; };
+		E2CBF311292E6600005B7C44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CBF310292E6600005B7C44 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E27DB79A2928089D00EBA957 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		E27DB79C292C05C600EBA957 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E27DB79E292C070B00EBA957 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		E2CBF310292E6600005B7C44 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			children = (
 				E27DB76E2927FE8E00EBA957 /* ContentView.swift */,
 				E27DB79E292C070B00EBA957 /* ProductListView.swift */,
+				E2CBF310292E6600005B7C44 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27DB79F292C070B00EBA957 /* ProductListView.swift in Sources */,
+				E2CBF311292E6600005B7C44 /* HomeView.swift in Sources */,
 				E27DB79D292C05C600EBA957 /* Constants.swift in Sources */,
 				E27DB76F2927FE8E00EBA957 /* ContentView.swift in Sources */,
 				E27DB79B2928089D00EBA957 /* ProductList.swift in Sources */,

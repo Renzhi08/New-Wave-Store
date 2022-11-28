@@ -11,7 +11,7 @@ import Foundation
 
 class ProductList: ObservableObject {
     @Published var products: [Product]
-    let id = UUID()
+
     
     
     
